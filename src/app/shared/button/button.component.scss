@@ -1,0 +1,21 @@
+button {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #5d37f3;
+  color: #fff;
+  border: none;
+  font-family: FiraGO;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 20px;
+  width: 100%;
+
+  &:focus {
+    border: none;
+    outline: 0;
+  }
+}

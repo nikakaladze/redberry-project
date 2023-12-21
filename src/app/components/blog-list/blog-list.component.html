@@ -1,0 +1,18 @@
+<main>
+    <section class="main-flex">
+        <h1 class="blog">ბლოგი</h1>
+        <div class="img">
+            <img class="circle" src="/assets/images/circle.png">
+        </div>
+    </section>
+    <app-blog-filter>
+
+    </app-blog-filter>
+    <section class="card-wrapper">
+
+        @for (card of blogs$ | async; track card) {
+        <app-blog-card [card]="card"></app-blog-card>
+        }
+    </section>
+
+</main>

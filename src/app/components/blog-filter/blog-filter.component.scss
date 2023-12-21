@@ -1,0 +1,52 @@
+.btn-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.same {
+  border: none;
+  border-radius: 30px;
+  background: #eee1f7;
+  padding: 8px 16px;
+  color: #d6961c;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  background: rgba(255, 184, 47, 0.08);
+  margin-right: 10px;
+}
+
+.app {
+  background-color: #c5f8e0;
+  color: #15c972;
+}
+
+.intel {
+  background-color: #f1d6f8;
+  color: #b71fdd;
+}
+
+.ui {
+  color: #dc2828;
+  background-color: #f7c6c6;
+}
+
+.research {
+  color: #60be16;
+  background-color: #c2f09e;
+}
+
+.figma {
+  color: #1ac7a8;
+  background-color: #c0f5eb;
+}
+
+// .img {
+//   border-radius: 12px;
+//   margin-left: 76px;
+// }

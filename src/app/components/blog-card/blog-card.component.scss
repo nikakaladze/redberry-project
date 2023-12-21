@@ -1,0 +1,116 @@
+.first-cont p {
+  color: #1a1a1f;
+  margin-left: 76px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.first-cont span {
+  color: #85858d;
+  margin-left: 76px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.first-cont h1 {
+  color: #1a1a1f;
+  margin-left: 76px;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.marg-btn {
+  display: flex;
+  margin-left: 67px;
+  margin-bottom: 16px;
+}
+
+.link a {
+  color: #5d37f3;
+  font-family: FiraGO;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 76px;
+  text-decoration: none;
+}
+
+.link {
+  margin-bottom: 56px;
+}
+
+.btn-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.same {
+  border: none;
+  border-radius: 30px;
+  background: #eee1f7;
+  padding: 8px 16px;
+  color: #d6961c;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  background: rgba(255, 184, 47, 0.08);
+  margin-right: 10px;
+}
+
+.app {
+  background-color: #c5f8e0;
+  color: #15c972;
+}
+
+.intel {
+  background-color: #f1d6f8;
+  color: #b71fdd;
+}
+
+.ui {
+  color: #dc2828;
+  background-color: #f7c6c6;
+}
+
+.research {
+  color: #60be16;
+  background-color: #c2f09e;
+}
+
+.figma {
+  color: #1ac7a8;
+  background-color: #c0f5eb;
+}
+
+.img {
+  border-radius: 12px;
+  margin-left: 76px;
+
+  img {
+    width: 309px;
+    height: 312px;
+    object-fit: cover;
+    object-position: top;
+  }
+}

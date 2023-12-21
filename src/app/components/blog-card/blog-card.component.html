@@ -1,0 +1,39 @@
+<div class="first-cont">
+    <div class="img">
+
+        <img [src]="card.image" [alt]="card.title">
+    </div>
+    <p>{{card.author}}
+    </p>
+    <span>{{card.publish_date}}</span>
+    <h1>
+        <b>
+
+            {{card.title}}
+        </b>
+    </h1>
+    <div class="marg-btn">
+
+        @for (category of card.categories; track category) {
+        <button class="same" [style.color]="category.text_color" [style.color]="category.background_color">
+            {{category.name}}
+        </button>
+        }
+        <!-- <button class=" same market marg-left">მარკეტი</button>
+        <button class="same app  marg-left">აპლიკაცია</button>
+        <button class="same intel  marg-left">ხელოვნური ინტელექტი</button> -->
+
+    </div>
+    <p>
+        {{card.description}}
+    </p>
+    <div class="link">
+
+        <a href="#">სრულად ნახვა</a>
+        <img src="./assets/Arrow.svg" alt="">
+    </div>
+
+
+
+
+</div>
